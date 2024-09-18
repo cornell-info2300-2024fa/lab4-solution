@@ -17,7 +17,7 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "html.format.wrapLineLength": 0,
-    "intelephense.diagnostics.enable": false,
+    "intelephense.diagnostics.enable": true,
     "json.format.keepLines": true,
     "markdownlint.config": {
         "MD012": false,
@@ -29,7 +29,7 @@
         "MD037": false,
         "MD040": false
     },
-    "php.validate.enable": false,
+    "php.validate.enable": true,
     "todohighlight.enableDiagnostics": true,
     "webvalidator.validateOnSave": true,
     "workbench.editor.highlightModifiedTabs": true,

@@ -57,24 +57,24 @@ $nav_flowershop_class = "";
 
       <p>Interesting in taking one of our cooking classes? Let us know which classes and we'll send you some information!</p>
 
-      <form id="request-form" action="/cooking-confirmation.php" method="post" novalidate>
+      <form id="request-form" action="/cooking-classes/confirmation" method="post" novalidate>
 
         <div class="form-label">
           <input type="checkbox" name="japanese-vegetarian" id="request-vegetarian" />
           <label for="request-vegetarian">Japanese Vegetarian</label>
         </div>
         <div class="form-label">
-          <input type="checkbox" name="sauces masterclass" id="request-sauces" />
+          <input type="checkbox" name="sauces-masterclass" id="request-sauces" />
           <label for="request-sauces">Sauces Masterclass</label>
         </div>
 
         <div class="form-label">
           <label for="request-email">Email:</label>
-          <input type="email" name="Email" id="request-email" />
+          <input type="email" name="email" id="request-email" />
         </div>
 
         <div class="align-right">
-          <input id="request-submit" type="button" value="Request Information" />
+          <input id="request-submit" type="submit" value="Request Information" />
         </div>
       </form>
     </section>
